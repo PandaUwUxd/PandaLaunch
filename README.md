@@ -29,4 +29,6 @@ Forge es un tanto mas complicado, para ello necesitas el instalador universal de
 ```
 npm run build
 ```
-(Si piensan generar el .exe, remuevan la carpeta del minecraft que este instalado)
+(Si piensan generar el .exe, remuevan la carpeta del minecraft que este instalado)<br /><br /><br />
+
+Soporte y ma$ ayuda Discord: PandaUwU#2438
