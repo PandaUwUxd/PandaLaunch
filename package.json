@@ -1,0 +1,28 @@
+{
+  "name": "panda-launch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build-windows": "electron-builder -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.1.1",
+    "electron-builder": "^24.1.1"
+  },
+  "build": {
+    "appId": "PandaLaunch",
+    "asar": true,
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "dependencies": {
+    "minecraft-launcher-core": "^3.16.18"
+  }
+}

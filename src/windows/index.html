@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PandaLaunch</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <label id="status"></label>
+    <div id="fondo"></div>
+    <div id="download-screen" style="display:none;" class="config">
+      <h1>Descargando:</h1>
+      <br>
+      <label id="descarga"></label>
+      <br>
+      <h3>Por favor no cierres el launcher mientras la descarga esta en curso.</h3>
+    </div>
+    <div class="center">
+    <input placeholder="Ingresa tu nick" id="nick" class="nick">
+    <button id="launch" class="launch">Jugar.</button>
+  </div>
+
+    <script type="module" src="../renderer.js"></script>
+    
+  </body>
+</html>
